@@ -1,0 +1,26 @@
+{
+	"name": "froncubator-mongo",
+	"description": "MongoDB library with typing and schema-models.",
+	"version": "0.0.1",
+	"homepage": "https://github.com/froncubator/froncubator-mongo",
+	"main": "froncubator-mongo.j",
+	"dependencies": {
+		"mongodb": "3.0.1"
+	},
+	"files": [
+		"README.md",
+		"LICENSE",
+		"froncubator-mongo.js"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"mongodb", "mongo", "database", "db", "mongodb driver", "mongodb schema", "mongodb library"
+	],
+	"author": "Froncubator Pro",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/froncubator/froncubator-mongo/issues"
+	}
+}
