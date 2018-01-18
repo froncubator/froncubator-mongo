@@ -5,7 +5,7 @@ const f = require('util').format
 
 class FroncubatorMongo {
 
-    constructor(params) {
+    constructor(params = {}) {
         this.mongoURL = ''
         this.models = {}
         this.db = null

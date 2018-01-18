@@ -7,6 +7,8 @@ npm install froncubator-mongo
 
 ```javascript
 // Quick Start
+const FroncubatorMongo = require('froncubator-mongo')
+
 async main() {
     // Init library
     const db = new FroncubatorMongo()
