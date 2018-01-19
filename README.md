@@ -140,11 +140,14 @@ await db.dropCollection('post')
 ### Drop Indexes
 ```javascript
 await db.dropIndex('post') // drop all indexes from post collection
+// return true/false or promise reject
 ```
 
 ### Connect
 ```javascript
 await db.connect('some_mongo_url') // connect to DB
+// return db object (by mongodb driver)
+// if FroncubatorMongo lost connection, then module start "auto reconnect" after 5 seconds
 ```
 
 ### Create ObjectID
@@ -157,6 +160,7 @@ db.toObjectID(['59d10a3d320d720010522391', '59d10a3d320d720010522391'])
 ### Disconnect
 ```javascript
 await db.disconnect() // close db connection.
+// return true/false or promise reject
 ```
 
 ### Some features
