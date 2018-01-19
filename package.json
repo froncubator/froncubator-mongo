@@ -1,7 +1,7 @@
 {
 	"name": "froncubator-mongo",
 	"description": "MongoDB library with typing and schema-models.",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"homepage": "https://github.com/froncubator/froncubator-mongo",
 	"main": "froncubator-mongo.js",
 	"dependencies": {
