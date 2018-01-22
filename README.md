@@ -170,8 +170,10 @@ await db.disconnect() // close db connection.
         // Add default query part. When you create new document, hide param will be added to your document by default with 0 value.
         // $ne param would be added to db.find by default
         defaultQueryPart: {
-            hide: 0,
-            $ne: 1
+            hide: {
+                default: 0,
+                $ne: 1
+            }
         }
     })
 ```
