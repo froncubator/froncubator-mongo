@@ -8,7 +8,7 @@ class FroncubatorMongo {
     constructor(params = {}) {
         this.mongoURL = ''
         this.models = {}
-        this.modelsView: {}
+        this.modelsView = {}
         this.db = null
         this.dbName = ''
         this.params = params
